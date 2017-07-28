@@ -1,0 +1,21 @@
+$boxSizing: border-box;
+$marginNull: 0;
+$paddingNull: 0;
+$fontOpenSans: 'Open Sans', sans-serif;
+$fontMerriweather: 'Merriweather', serif;
+$bodyLineHeight: 1.42857143;
+$bodyBg: url('img/Calque1.png') no-repeat;
+$bodyBgSize: 100%;
+* {
+  box-sizing: $boxSizing;
+  margin: $marginNull;
+  padding: $paddingNull;
+}
+body {
+line-height: $bodyLineHeight;
+background: $bodyBg;
+background-size: $bodyBgSize;
+margin: $marginNull;
+font-family: $fontOpenSans;
+font-family: $fontMerriweather;
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../../favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Epam Task</title>
+</head>
+<body class="b-page">
+  <header class="b-page__header">
+    <div class="container header__container">
+      <nav class="header__nav">
+        <div class="col-md-3">
+        <div class="header__logo">
+          <img src="img/Pixelstudio.png" alt="pixelstudio">
+        </div>
+      </div> <!--col 3 ends -->
+        <div class="col-md-9">
+        <a class="nav__item nav__item_home" href="#">Home</a>
+        <a class="nav__item nav__item_portfolio" href="#">Portfolio</a>
+        <a class="nav__item nav__item_mywork" href="#">My work</a>
+        <a class="nav__item nav__item_aboutme" href="#">About me</a>
+        <a class="nav__item nav__item_elements" href="#">Elements</a>
+        <a class="nav__item nav__item_contact" href="#">Contact</a>
+      </div> <!--col 9 ends -->
+      </nav>
+    </div> <!--container ends -->
+  </header>
+  <div class="container b-page__welcome">
+    <section class="welcome__section">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="welcome__article">Welcome !</h1>
+        <hr class="section__line">
+        <hr class="section__line_bottom">
+      </div> <!--col 12 ends -->
+    </div> <!--row ends -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Welcome to <span class="freelance__item">Pixelstudio</span> !</h2>
+        <p class="top__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis finibus ex. Donec bibendum sagittis mauris id vestibulum.
+          Fusce ultricies ultricies dignissim. Nullam dictum pharetra finibus. Sed eget eros ante. Duis ut dolor et massa pharetra
+          tristique sed eu mi. Vivamus id velit eget justo efficitur malesuada.</p>
+        <p class="top__article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus gravida vitae velit in pellentesque.
+          Curabitur sed sapien mattis risus vulputate hendrerit vitae quis tortor. Nulla eu diam dignissim, pulvinar tellus ac, bibendum neque. Nunc ullamcorper
+          porta dolor id venenatis. Nulla ultrices nisl sed lorem vulputate dictum. Nulla magna metus, aliquam et eleifend eu, vehicula non risus.</p>
+      </div>
+      <div class="col-md-6 col-md-push-1">
+        <div id="slideshow-wrap">
+          <input type="radio" id="button-1" name="controls" checked="checked" />
+          <label for="button-1"></label>
+          <input type="radio" id="button-2" name="controls" />
+          <label for="button-2"></label>
+          <input type="radio" id="button-3" name="controls" />
+          <label for="button-3"></label>
+          <input type="radio" id="button-4" name="controls" />
+          <label for="button-4"></label>
+          <input type="radio" id="button-5" name="controls" />
+          <label for="button-5"></label>
+          <label for="button-1" class="arrows" id="arrow-1">
+            <i class="fa fa-caret-right fa-3x" aria-hidden="true"></i>
+        </label>
+          <label for="button-2" class="arrows" id="arrow-2">
+            <i class="fa fa-caret-right fa-3x" aria-hidden="true"></i>
+            <p class="slider__description">Some cool description 1</p>
+        </label>
+          <label for="button-3" class="arrows" id="arrow-3"><i class="fa fa-caret-right fa-3x" aria-hidden="true"></i>
+            <p class="slider__description">Some cool description 2</p>
+          </label>
+          <label for="button-4" class="arrows" id="arrow-4"><i class="fa fa-caret-right fa-3x" aria-hidden="true"></i>
+            <p class="slider__description slider__transformed">Some cool description 3</p>
+          </label>
+          <label for="button-5" class="arrows" id="arrow-5"><i class="fa fa-caret-right fa-3x" aria-hidden="true"></i>
+            <p class="slider__description">Some cool description 4</p>
+          </label>
+          <div id="slideshow-inner">
+            <ul>
+              <li id="slide1">
+                <img class="slider__item" src="http://unsplash.it/600/400?image=940" alt="slider"/>
+              </li>
+              <li id="slide2">
+                <img src="http://unsplash.it/550/420?image=885" alt="slider"/>
+              </li>
+              <li id="slide3">
+                <img src="http://unsplash.it/650/450?image=823" alt="slider"/>
+              </li>
+              <li id="slide4">
+                <img src="http://unsplash.it/600/350?image=815" alt="slider"/>
+              </li>
+              <li id="slide5">
+                <img src="http://unsplash.it/670/410?image=401" alt="slider"/>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> <!--row  ends -->
+    <hr class="delimiter">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="bottom__section_first" src="img/Icon1.png" alt="item">
+        <span class="inform__block">What i do</span>
+        <p>Nulla convallis lectus et risus egestas <br>euismod. Maecenas tempus massa metus,<br> ut faucibus elit mollis sit amet. Aliquam <br>vitae fermentum. </p>
+      </div>
+      <div class="col-md-4">
+        <img class="bottom__section_second" src="img/Icon2.png" alt="item">
+        <span class="inform__block">How i do it</span>
+        <p>Praesent sed odio pulvinar, viverra risus <br>vitae, varius ante. Fusce ex libero, dictum<br> vitae libero efficitur, aliquam ultricies lacus. Proin.</p>
+      </div>
+      <div class="col-md-4">
+        <img class="bottom__section_third" src="img/Icon3.png" alt="item">
+        <span class="inform__block">About me</span>
+        <p>Orci varius natoque penatibus et magnis<br> dis parturient montes, nascetur ridiculus <br>mus. Quisque ultrices erat nec ultrices <br>fringilla.</p>
+      </div>
+      <div class="col-md-12">
+        <hr class="section__line__bottom">
+        <hr class="wrapper__line__second">
+      </div>
+    </div> <!--row ends -->
+  </section> <!--section welcome! ends -->
+    <section class="portfolio">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section__headings">Portfolio</h1>
+          <hr class="section__line">
+          <hr class="section__line_bottom">
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png"  alt="mongo">
+    </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-xs-6 col-md-4">
+          <a href="#" class="thumbnail">
+  <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo">
+  </a>
+        </div>
+        <div class="col-md-12">
+          <hr class="section__line__bottom">
+          <hr class="wrapper__line__second">
+        </div>
+      </div>
+    </section>
+    <section class="mywork__section">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section__headings">My work</h1>
+          <hr class="section__line">
+          <hr class="section__line_bottom">
+        </div>
+        <div class="col-md-12">
+          <h3 class="mywork__menu">Design</h3>
+          <h3 class="mywork__menu">Print</h3>
+          <h3 class="mywork__menu">Logo</h3>
+          <h3 class="mywork__menu">Illustration</h3>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+      <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="mongo_small">
+      </a>
+        </div>
+        <div class="col-md-12">
+          <hr class="section__line__bottom">
+          <hr class="wrapper__line__second">
+        </div>
+
+      </div>
+    </section>
+    <section class="section__aboutme">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section__headings">About me</h1>
+          <hr class="section__line">
+          <hr class="section__line_bottom">
+        </div>
+        <div class="col-md-8">
+          <p class="first__letter">
+            Nauris porta finibus elit, in varius ex luctus vel. Aliquam non dictum nulla. Nunc nec eros ligula.
+            Donec et dignissim mauris. Etiam non libero at lorem porttitor elementum. Vestibulum vel vulputate diam. Vestibulum semper velit sit amet orci ornare interdum.
+            Nulla congue, lacus quis elementum lobortis, dolor turpis tincidunt eros, egestas cursus magna purus ac.
+          </p>
+          <p>Fusce sodales sem ut ligula congue egestas. Morbi rhoncus erat quis placerat venenatis. In hac habitasse platea dictumst.
+            Duis scelerisque justo justo. Sed viverra, turpis non ultrices eleifend, libero velit. In hac habitasse platea dictumst.
+            Duis scelerisque justo justo. Sed viverra, turpis non ultrices eleifend, libero.
+          </p>
+          <h2>Sed magna libero, sollicitudin quis suscipit quis,</h2>
+          <p>
+            Ut et lorem nec sapien posuere placerat sit amet quis lorem. Pellentesque sapien massa, mattis sit amet elementum nec, sollicitudin et velit.
+            Morbi iaculis ac augue faucibus cursus. Ut viverra metus lectus, quis semper est vulputate sed. Integer rhoncus,
+            erat et egestas sodales, quam sem.
+          </p>
+          <h2>Vestibulum ante ipsum</h2>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed mollis eu lectus at posuere.
+            Mauris consectetur felis vel libero tincidunt, ut porta neque cursus. Sed imperdiet nunc id cursus facilisis. Nullam in justo sit
+            amet lorem congue egestas. Integer dictum purus nec purus sodales, vulputate hendrerit massa ornare. Fusce ac erat purus.
+            Sed leo ante, ullamcorper in vehicula eu, tempus sed augue. Donec nec nisl nec lacus congue pretium at ac metus. Proin
+            bibendum felis non nunc sollicitudin bibendum.
+          </p>
+          <h3>Some styled typography</h3>
+          <p class="typography__item typography__item_first">
+            Aliquam erat volutpat. Morbi ligula nibh, cursus ut elit eu, ornare rhoncus eros. Proin egestas dolor nec nunc posuere fringilla.
+            Vestibulum tincidunt nisi vel lorem tincidunt, non venenatis nibh laoreet. Vivamus pellentesque.
+          </p>
+          <p class="typography__item typography__item_second">
+            Aliquam erat volutpat. Morbi ligula nibh, cursus ut elit eu, ornare rhoncus eros.Proin egestas dolor nec nunc posuere fringilla.
+            Vestibulum tincidunt nisi vel lorem tincidunt, non venenatis nibh laoreet. Vivamus pellentesque tincidunt sapien.
+          </p>
+          <p class="typography__item typography__item_third">
+            Aliquam erat volutpat. Morbi ligula nibh, cursus ut elit eu, ornare rhoncus eros. Proin egestas dolor nec nunc posuere fringilla.
+            Vestibulum tincidunt nisi vel lorem tincidunt, non venenatis nibh laoreet. Vivamus pellentesque tincidunt sapien, nec ornare.
+          </p>
+          <p class="typography__item typography__item_fourth">
+            Aliquam erat volutpat. Morbi ligula nibh, cursus ut elit eu, ornare rhoncus eros. Proin egestas dolor nec nunc posuere fringilla.
+            Vestibulum tincidunt nisi vel lorem tincidunt, non venenatis nibh laoreet. Vivamus pellentesque tincidunt sapien.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-12">
+            <p class="flickr">From Flickr</p>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#" class="thumbnail">
+          <img src="http://www.nastol.com.ua/pic/201110/1024x1024/nastol.com.ua-10539.jpg" alt="mortal">
+          </a>
+          </div>
+          <div class="col-md-12">
+            <h2>Links</h2>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>Themeforest</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>GraphicRiver</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>CodecCanyon</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>ActiveDen</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>3DOcean</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>VideoHive</span>
+          </div>
+          <div class="links__item">
+            <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+            <span>AudioJungle</span>
+          </div>
+        </div>
+        <!-- second column ends -->
+        <div class="col-md-12">
+          <hr class="section__line__bottom">
+          <hr class="wrapper__line__second">
+        </div>
+      </div>
+      <!--section row ends -->
+    </section>
+    <section class="elements">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section__headings">Elements &amp; Classes</h1>
+          <hr class="section__line">
+          <hr class="section__line_bottom">
+        </div>
+        <div class="col-md-8">
+          <p class="first__letter">Dellentesque consectetur tortor vitae ultrices varius. Cras eleifend vehicula ligula, ut commodo ex iaculis et.
+            Phasellus laoreet odio vitae est tempus, vel efficitur augue consequat. Pellentesque molestie volutpat neque at pulvinar. Ut quis
+            faucibus quam. Nunc ac purus imperdiet, rutrum erat quis, interdum lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Fusce vestibulum sem ut convallis ornare. Maecenas ac ante ullamcorper, aliquam nisi eget, rhoncus elit.
+            Pellentesque ac viverra felis. Ut quis faucibus quam. Nunc ac purus imperdiet, rutrum erat quis, interdum lacus. Interdum et malesuada
+            fames ac ante ipsum primis in faucibus. Fusce vestibulum sem ut convallis ornare. Maecenas ac ante ullamcorper,
+            aliquam nisi eget, rhoncus elit. Pellentesque ac viverra felis.
+          </p>
+          <h2>Some additional text, This is another header</h2>
+          <p>
+            Maecenas eget quam sagittis sem dictum lacinia. Sed tempus consectetur viverra. Morbi in convallis nibh, vel feugiat eros. Maecenas lobortis bibendum nulla, eget aliquam justo dignissim vel. Curabitur vulputate nibh tempus luctus convallis. Nulla dapibus.
+          </p>
+          <div class="wrapper__testimonials_articles">
+            <p class="elements__articles"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Duis ornare facilisis velit luctus efficitur. Maecenas laoreet tempus aliquam.</p>
+            <p class="elements__articles"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Vestibulum sagittis ex vel felis consequat, quis congue nisi molestie.</p>
+            <p class="elements__articles"><span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> Integer aliquam feugiat augue. Sed consectetur quam nec magna mattis.</p>
+          </div>
+          <p class="wrapper__testimonials_articles">Aliquam sodales consectetur nisi non blandit. Sed pretium, elit nec
+            sagittis aliquam, urna justo tempus nisi, sed viverra neque leo in massa. Ut pellentesque molestie vestibulum.
+          </p>
+          <div class="wrapper__testimonials_articles">
+            <p class="elements__articles">1. Duis ornare facilisis velit luctus efficitur. Maecenas laoreet tempus aliquam.</p>
+            <p class="elements__articles">2. Vestibulum sagittis ex vel felis consequat, quis congue nisi molestie.</p>
+            <p class="elements__articles">3. Integer aliquam feugiat augue. Sed consectetur quam nec magna mattis.</p>
+          </div>
+          <h2 class="headers__articles">This is an h2 header</h2>
+          <p>Aliquam sodales consectetur nisi non blandit. Sed pretium, elit nec sagittis aliquam, urna justo tempus nisi, sed viverra neque leo in massa. Ut pellentesque molestie vestibulum.
+          </p>
+          <h3 class="headers__articles">This is an h3 header</h3>
+          <p>Aliquam sodales consectetur nisi non blandit. Sed pretium, elit nec sagittis aliquam, urna justo tempus nisi, sed viverra neque leo in massa. Ut pellentesque molestie vestibulum.
+          </p>
+          <h4 class="headers__articles">This is an h4 header</h4>
+          <p>Aliquam sodales consectetur nisi non blandit. Sed pretium, elit nec sagittis aliquam, urna justo tempus nisi, sed viverra neque leo in massa. Ut pellentesque molestie vestibulum.
+          </p>
+          <h5 class="headers__articles">This is an h5 header</h5>
+          <hr class="delimiter">
+          <p>Aliquam sodales consectetur nisi non blandit. Sed pretium, elit nec sagittis aliquam, urna justo tempus nisi, sed viverra neque leo in massa. Ut pellentesque molestie vestibulum.
+          </p>
+        </div>
+        <!--col 8 ends-->
+        <div class="col-md-4">
+          <a href="#" class="thumbnail">
+          <img src="https://webassets.mongodb.com/_com_assets/cms/mongodb-for-giant-ideas-bbab5c3cf8.png" alt="...">
+          </a>
+          <h2>Testimonials</h2>
+
+          <p class="testimonials__article"><img class="testimonials__image" src="img/layer_62.png" alt="testimonials__image">
+            Integer tristique, libero at interdum gravida, nulla magna sodales orci, at blandit nibh libero nec dolor.
+            Donec pharetra vulputate convallis. Cras tortor augue, facilisis id fringilla sit amet, egestas eu enim. Aenean.
+            <span class="freelance__item">ABC Company</span>
+            <img class="testimonials__image" src="img/layer_63.png" alt="testimonials__image">
+          </p>
+          <p class="testimonials__article"><img class="testimonials__image" src="img/layer_62.png" alt="testimonials__image">
+            Integer tristique, libero at interdum gravida, nulla magna sodales orci, at blandit nibh libero nec dolor.
+            Donec pharetra vulputate convallis. Cras tortor augue, facilisis id fringilla sit amet, egestas eu enim. Aenean.
+            <span class="freelance__item">Company ABC</span>
+            <img class="testimonials__image" src="img/layer_63.png" alt="testimonials__image">
+          </p>
+          <p class="testimonials__article"><img class="testimonials__image" src="img/layer_62.png" alt="testimonials__image">
+            Integer tristique, libero at interdum gravida, nulla magna sodales orci, at blandit nibh libero nec dolor.
+            Donec pharetra vulputate convallis. Cras tortor augue, facilisis id fringilla sit amet, egestas eu enim. Aenean.
+            <span class="freelance__item">Company ABC</span>
+            <img class="testimonials__image" src="img/layer_63.png" alt="testimonials__image">
+          </p>
+          <h3 class="testimonials__textbox">This is a textbox</h3>
+          <p>
+            <strong>Nullam varius orci vel lectus pellentesque</strong> congue. In nunc mi, dignissim et rhoncus eget, ullamcorper vitae diam.
+            Maecenas tempor eros sed nibh ultricies.
+          </p>
+          <p>
+            <strong>Vestibulum mattis rhoncus lorem, vel dictum</strong> purus. In feugiat odio sed nisi dapibus fermentum.
+            Quisque ut dui nec sapien tristique elementum ut rhoncus.
+          </p>
+        </div><!--col 4 ends -->
+                <div class="col-md-12">
+          <hr class="section__line__bottom">
+          <hr class="wrapper__line__second">
+        </div>
+      </div>
+      <!--row ends -->
+    </section>
+    <section class="Contact__section">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="section__headings">Contact</h1>
+          <hr class="section__line">
+          <hr class="section__line_bottom">
+        </div>
+        <div class="col-md-9">
+          <p>
+            Fusce elementum sapien turpis, eget faucibus enim semper quis. Duis dolor ipsum, finibus eget tellus a, vehicula vestibulum sapien.
+            Fusce sed tellus congue justo eleifend iaculis at ac nibh. Curabitur consectetur mattis eros.
+          </p>
+
+            <form name="test" method="post">
+              <div class="col-sm-8">
+              <label class="form__name">Name</label>
+              <input class="text__input" type="text" size="45">
+            </div>
+              <div class="col-sm-8">
+              <label class="form__email">Email</label>
+              <input class="email__input" type="email" size="45">
+            </div>
+              <div class="col-sm-8">
+             <span class="textarea__message">Message</span>
+            <textarea class="textarea__item" cols="45" rows="10"></textarea>
+            </div>
+               <div class="col-sm-8">
+              <div class="btn-group" role="group" aria-label="...">
+               <button type="button" class="btn btn-default">Reset</button>
+               <button type="button" class="btn btn-default">Send</button>
+             </div>
+           </div>
+          </form>
+          </div> <!--col 9 ends -->
+        <div class="col-md-3">
+            <p class="contacts__article">Contact informations</p>
+            <p>
+              Morbi odio diam, scelerisque eget viverra a, laoreet in sapien.
+            </p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i> Company name</p>
+            <p class="contacts__items">789 Street</p>
+            <p class="contacts__items">990 00, City name, Country</p>
+            <p><i class="fa fa-comment" aria-hidden="true"></i> Phone: +38 095 164 39 15</p>
+            <p class="contacts__items">Fax: +00 923 234 2242</p>
+            <p><i class="fa fa-pencil" aria-hidden="true"></i>Email: <span class="freelance__item">dp021190dms@gmail.com</span></p>
+        </div> <!--col 3 ends -->
+        <div class="col-md-12">
+          <hr class="section__line__bottom">
+          <hr class="wrapper__line__second">
+        </div>
+      </div>
+      <!--row ends -->
+    </section>
+  </div>
+  <!--container ends -->
+  <footer class="blog-footer">
+    <div class="container">
+      <div class="col-md-9 col-md-push-4 footer__headings">
+        <h2 class="social__footer">Social networks</h2></div>
+      <div class="col-md-3 col-md-pull-9 footer__headings">
+        <h2 class="social__footer">Freelance work</h2></div>
+      <div class="col-md-4">
+        <p>For all news and updates, join us on the social networks and stay tuned!</p>
+      </div>
+      <div class="col-md-4">
+        <p>I,m currently available for freelance work,I can desing for you a brand new website or create an awesome logo.</p>
+      </div>
+      <div class="col-md-4">
+        <p>This theme uses 100% valid <br><span class="freelance__item">HTML</span> and <span class="freelance__item">CSS</span></p>
+      </div>
+      <div class="col-md-5 bottom__footer">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+      </div>
+      <div class="col-md-3 col-md-pull-1 bottom__footer">Just <span class="freelance__item">drop me an email</span> to get in touch !</div>
+      <div class="col-md-3 bottom__footer">Copyright © 2010 Pixelstudio</div>
+    </div>
+  </footer>
+</body>
+</html>
